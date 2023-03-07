@@ -5,9 +5,14 @@ VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreDemoConsole", "EFCoreDemoConsole\EFCoreDemoConsole.csproj", "{EA184404-36DA-4CE6-92FB-3F46983A5425}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreDemo.EntityFramework", "EFCoreDemo.EntityFramework\EFCoreDemo.EntityFramework.csproj", "{6E485BBD-7AE0-4749-817A-14A681A00814}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreDemo.EntityFramework", "EFCoreDemo.EntityFramework\EFCoreDemo.EntityFramework.csproj", "{6E485BBD-7AE0-4749-817A-14A681A00814}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreDemo.Domain", "EFCoreDemo.Domain\EFCoreDemo.Domain.csproj", "{705A159F-8878-4B59-AC4B-5A11E4F1AA22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCoreDemo.Domain", "EFCoreDemo.Domain\EFCoreDemo.Domain.csproj", "{705A159F-8878-4B59-AC4B-5A11E4F1AA22}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB6146B4-F094-41F2-9FB3-C5C06AF09A42}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -3,6 +3,7 @@ using EFCoreDemo.EntityFramework;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EFCoreDemo.EntityFramework.Migrations
 {
     [DbContext(typeof(EFCoreDemoDbContext))]
-    partial class EFCoreDemoDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230307194104_RemovedTestField")]
+    partial class RemovedTestField
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
